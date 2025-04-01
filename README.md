@@ -1,3 +1,7 @@
+# Set up
+```
+yarn install
+```
 # Test Execution
 ```
 // run all tests
