@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","4367","should login with valid credentials","","Sun Mar 30 23:48:59 GMT+07:00 2025","passed","Sun Mar 30 23:49:04 GMT+07:00 2025","","My Login application","",""
-"","1409","should login with valid credentials","","Sun Mar 30 23:48:59 GMT+07:00 2025","passed","Sun Mar 30 23:49:01 GMT+07:00 2025","","swag test","",""
-"","3706","should add a new element","","Tue Apr 01 00:26:30 GMT+07:00 2025","failed","Tue Apr 01 00:26:34 GMT+07:00 2025","","Be able to add new element","",""
