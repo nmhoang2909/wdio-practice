@@ -1,5 +1,5 @@
 import { expect } from "@wdio/globals";
-import addRemovePage from "../pageobjects/addRemovePage";
+import addRemovePage from "../pageobjects/add-remove-page";
 
 describe("Add/Remove Elements", () => {
   it("should add a new element", async () => {
