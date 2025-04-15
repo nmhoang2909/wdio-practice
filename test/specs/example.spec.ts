@@ -13,4 +13,21 @@ describe("Available Examples", () => {
       "Congratulations! You must have the proper credentials.",
     );
   });
+
+  it("ocr service - be able to search for a value", async () => {
+    await browser.url("https://webdriver.io");
+    await browser.ocrClickOnText({
+      text: "Search",
+    });
+    await browser.ocrSetValue({
+      text: "docs",
+      value: "specfileretries",
+    });
+    await browser.ocrWaitForTextDisplayed({
+      text: "specFileRetries",
+    });
+    await browser.ocrWaitForTextDisplayed({
+      text: "specFileRetriesDelay",
+    });
+  });
 });
